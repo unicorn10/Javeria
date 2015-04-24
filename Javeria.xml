@@ -30,4 +30,35 @@
       </block>
     </statement>
   </block>
+  <block type="controls_repeat" id="9" inline="true" x="172" y="30">
+    <value name="TIMES">
+      <block type="math_number" id="10">
+        <field name="NUM">4</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="controls_repeat" id="11" inline="true">
+        <value name="TIMES">
+          <block type="math_number" id="12">
+            <field name="NUM">133333</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="movement_forward" id="13"></block>
+        </statement>
+        <next>
+          <block type="controls_repeat" id="14" inline="true">
+            <value name="TIMES">
+              <block type="math_number" id="15">
+                <field name="NUM">16230</field>
+              </block>
+            </value>
+            <statement name="DO">
+              <block type="movement_right" id="16"></block>
+            </statement>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
 </xml>
